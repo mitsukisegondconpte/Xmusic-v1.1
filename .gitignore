@@ -1,0 +1,67 @@
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers temporaires
+temp/
+*.tmp
+*.temp
+
+# Sessions WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+session.json
+session/
+
+# Variables d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Cache système
+.DS_Store
+Thumbs.db
+
+# Editeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de build
+dist/
+build/
+
+# Fichiers audio téléchargés
+*.mp3
+*.ogg
+*.wav
+*.flac
+
+# Puppeteer
+.local-chromium/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory utilisé par des outils comme istanbul
+coverage/
+
+# Répertoires de dépendances optionnelles npm
+node_modules/
+jspm_packages/
+
+# Lockfiles (optionnel selon les préférences)
+# package-lock.json
+# yarn.lock
