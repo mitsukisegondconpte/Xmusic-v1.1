@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-music-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp avec téléchargement YouTube et jeu TicTacToe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-deps": "chmod +x glitch-install.sh && ./glitch-install.sh"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "music",
+    "youtube",
+    "tictactoe"
+  ],
+  "author": "jeff_mitsuki",
+  "license": "MIT"
+}
